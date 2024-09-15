@@ -19,7 +19,7 @@ class PairController extends Controller
       // $pairs = Pairs::pluck('currency_1_id', 'currency_2_id');
         
     $pairs = DB::table('pairs')
-    ->select('pairs.id as pair_id','c1.name as currency_1', 'c2.name as currency_2', 'pairs.exchange')
+    ->select('pairs.id as pair_id','c1.name as currency_1', 'c2.name as currency_2', 'pairs.exchange', 'pairs.conversions')
     ->join('currencies as c1','pairs.currency_1_id','=','c1.id')
     ->join('currencies as c2','pairs.currency_2_id','=','c2.id')
     ->orderBy('pairs.id')
