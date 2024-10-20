@@ -1,5 +1,5 @@
 <h1 align="center">Currency Converter</h1>
-
+<img align="center" src="https://github.com/Sekma/CurrencyFrontEnd/blob/main/src/assets/logo.png" width="50%" alt=""><br><br>
 ## Présentation
 
 Currency Converter est une application spécialisée dans la conversion monétaire, 
