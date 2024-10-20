@@ -22,7 +22,7 @@ gérer des données structurées, ce qui est essentiel pour la gestion des devis
 et des taux de conversion. </li>
     <li>Frontend (Administration) : Vue.js est privilégié pour sa flexibilité et sa facilité 
 d'intégration avec des APIs REST. Son approche réactive améliore l'expérience 
-utilisateur dans l'interface d'administration. <br><a href="https://github.com/Sekma/CurrencyFrontEnd">Code Frontend (Administration)</a></li>
+utilisateur dans l'interface d'administration. <br><a href="https://github.com/Sekma/CurrencyFrontEnd" target="_blank">Code Frontend (Administration)</a></li>
 </ul>
 
 ## Liste Fonctionnelle
