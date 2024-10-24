@@ -55,18 +55,18 @@ utilisateur dans l'interface d'administration. <br>
     o Route : PUT /edit_pair/{id} <br> 
       &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Modifier une paire de conversion existante. <br> 
     o Route : DELETE /delete_pair/{id} <br> 
-      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Supprimer une paire de conversion existante. <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Supprimer une paire de conversion existante.
 
 ### API Utilisateur 
 
-4. Service fonctionnel 
-    o Route : GET /currencies 
-     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Savoir si le service est fonctionnel et récupérer la liste des devises.
+4. Service fonctionnel <br> 
+    o Route : GET /currencies <br> 
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Savoir si le service est fonctionnel et récupérer la liste des devises. <br> <br> 
     
-6. Conversion de devises 
-    o Route : GET /pairs 
-     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Récupérer la liste des paires de conversion supportées.
-    o Route : GET /convert/{id}/{value} 
+5. Conversion de devises <br> 
+    o Route : GET /pairs <br> 
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Récupérer la liste des paires de conversion supportées. <br> 
+    o Route : GET /convert/{id}/{value} <br> 
       &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Convertir une quantité de devise suivant une paire existante.  
 
 ## Relations:
