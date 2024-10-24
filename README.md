@@ -71,8 +71,8 @@ utilisateur dans l'interface d'administration. <br>
 
 ## Relations:
  
-• Table currencies : Contient les informations sur les devises (id, nom). 
-• Table pairs :Contient les paires de conversion avec des références aux devises, le taux de conversion, et le décompte des conversions. 
+• Table currencies : Contient les informations sur les devises (id, nom). <br> 
+• Table pairs :Contient les paires de conversion avec des références aux devises, le taux de conversion, et le décompte des conversions. <br> 
 • Relations : currency_1_id et currency_2_id font référence à id dans la table currencies.  
 
 # Fabriqué avec
