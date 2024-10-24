@@ -31,8 +31,8 @@ utilisateur dans l'interface d'administration. <br>
 
 ### Administration
 
-1. Authentification 
-    o Route : POST /login 
+1. Authentification <br>
+    o Route : POST /login <br> 
         ▪ Fonctionnalité : Authentifier un utilisateur. 
     o Route : POST /register 
         ▪ Fonctionnalité : Enregistrer un nouvel utilisateur. 
