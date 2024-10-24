@@ -33,41 +33,41 @@ utilisateur dans l'interface d'administration. <br>
 
 1. Authentification <br>
     o Route : POST /login <br> 
-        ▪ Fonctionnalité : Authentifier un utilisateur. 
-    o Route : POST /register 
-        ▪ Fonctionnalité : Enregistrer un nouvel utilisateur. 
-    o Route : GET /user (authentifié) 
-        ▪ Fonctionnalité : Récupérer les informations de l'utilisateur connecté. 
-    o Route : GET /logout 
-        ▪ Fonctionnalité : Déconnecter l'utilisateur.
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Authentifier un utilisateur. <br> 
+    o Route : POST /register <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Enregistrer un nouvel utilisateur. <br> 
+    o Route : GET /user (authentifié) <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Récupérer les informations de l'utilisateur connecté. <br> 
+    o Route : GET /logout <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Déconnecter l'utilisateur. <br> <br> 
    
-2. Gestion des devises 
-    o Route : POST /create_currency 
-        ▪ Fonctionnalité : Créer une nouvelle devise. 
-    o Route : PUT /edit_currency/{id} 
-        ▪ Fonctionnalité : Modifier une devise existante. 
-    o Route : DELETE /delete_currency/{id} 
-        ▪ Fonctionnalité : Supprimer une devise existante.
+2. Gestion des devises <br> 
+    o Route : POST /create_currency <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Créer une nouvelle devise. <br> 
+    o Route : PUT /edit_currency/{id} <br> 
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Modifier une devise existante. <br> 
+    o Route : DELETE /delete_currency/{id} <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Supprimer une devise existante. <br> <br> 
    
-3. Gestion des paires de conversion 
-    o Route : POST /create_pair 
-        ▪ Fonctionnalité : Créer une nouvelle paire de conversion. 
-    o Route : PUT /edit_pair/{id} 
-        ▪ Fonctionnalité : Modifier une paire de conversion existante. 
-    o Route : DELETE /delete_pair/{id} 
-        ▪ Fonctionnalité : Supprimer une paire de conversion existante. 
+3. Gestion des paires de conversion <br> 
+    o Route : POST /create_pair <br> 
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Créer une nouvelle paire de conversion. <br> 
+    o Route : PUT /edit_pair/{id} <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Modifier une paire de conversion existante. <br> 
+    o Route : DELETE /delete_pair/{id} <br> 
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Supprimer une paire de conversion existante. <br> 
 
 ### API Utilisateur 
 
 4. Service fonctionnel 
     o Route : GET /currencies 
-        ▪ Fonctionnalité : Savoir si le service est fonctionnel et récupérer la liste des devises.
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Savoir si le service est fonctionnel et récupérer la liste des devises.
     
 6. Conversion de devises 
     o Route : GET /pairs 
-        ▪ Fonctionnalité : Récupérer la liste des paires de conversion supportées.
+     &nbsp;&nbsp;&nbsp;   ▪ Fonctionnalité : Récupérer la liste des paires de conversion supportées.
     o Route : GET /convert/{id}/{value} 
-        ▪ Fonctionnalité : Convertir une quantité de devise suivant une paire existante.  
+      &nbsp;&nbsp;&nbsp;  ▪ Fonctionnalité : Convertir une quantité de devise suivant une paire existante.  
 
 ## Relations:
  
